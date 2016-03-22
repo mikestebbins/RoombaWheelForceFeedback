@@ -31,12 +31,12 @@ TODO: FIX BELOW DIAGRAMS
  
   
   LM358 (Schmitt Trigger comparator): http://hyperphysics.phy-astr.gsu.edu/hbase/electronic/schmitt.html
-                         ----------------------
-          D3 interrupt  [] OUT A       V+ [] Power Supply (+)
-                        [] IN A (-) OUT B [] Power Supply (-)
-                        [] IN A (+)  IN B [] Teensy 19
-                        [] GND       IN B [] Teensy 18
-                         ----------------------
+                          --------------------
+          D3 interrupt   [] OUT A         V+ []  Power Supply (+)
+                         [] IN A(-)    OUT B []  Power Supply (-)
+                         [] IN A(+)  IN B(-) []  Teensy 19
+                         [] GND      IN B(+) []  Teensy 18
+                          --------------------
 
   Roomba wheel encoder connection
       --------------------
